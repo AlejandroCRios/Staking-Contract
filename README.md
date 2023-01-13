@@ -6,7 +6,7 @@ This is a Solidity smart contract for a staking pool. It allows users to deposit
 
 The rewards are distributed based on the user's proportion of the total staked tokens in the pool and the period reward token count. The contract also has functionality for the owner to update the reward token address, period reward token count, and calculation factor, as well as view the pool's total staked supply and the remaining lock time for a user's deposit.
 
-The contract also has functionality for users to withdraw their staked tokens and for the owner to emergency withdraw user's tokens.
+The contract also has functionality for users to withdraw their staked tokens before the locktime without to claim the rewards
 
 Code is a stripped down version of [Clasic locked Staking contract](https://github.com/pexcoinadmin/staking_contracts/blob/main/contracts/classic_locked_staking.sol)
 
